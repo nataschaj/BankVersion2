@@ -1,0 +1,6 @@
+{
+  "name": "Bankversion2",
+  "tagline": "",
+  "body": "# BankVersion2\r\n<H1>Exercise 14</H1>\r\n\r\nDownload or clone the C# project BankVersion2. \r\n\r\nThis project contains a working BankAccount class. However, it has some problems… \r\n\r\n1.\tTry to test the BankAccount class, by adding code in the InsertCodeHere class. Specifically, make some tests that make the balance go negative\r\n\r\n2.\tNow change the code in the withdraw method, such that a withdrawal is only done if the balance is larger than or equal to the given amount. Remember to test that the change works as expected\r\n\r\n3.\tThis makes the BankAccount class more realistic, but there are still problems – you can call both withdraw and deposit with negative amounts (try it), which does not make much sense. Make changes to both methods, such that they only perform a withdrawal/deposit if the given amount is positive. Remember that for the withdraw method, the change made in part 2 must still work!\r\n\r\n4.\tTest that all your changes work as expected.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
