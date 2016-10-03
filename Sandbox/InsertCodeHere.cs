@@ -13,7 +13,18 @@ namespace Sandbox
             // Test the BankAccount - make some deposits and withdrawals,
             // and check that the balance behaves as expected
             myAccount.GetBalance();
-            Console.WriteLine("Balance is now : {0}", myAccount.GetBalance());
+            Console.WriteLine("Balance is now {0}", myAccount.GetBalance());
+
+            myAccount.Deposit(1000);
+            myAccount.Withdraw(2000);
+            Console.WriteLine("Balance is now {0}", myAccount.GetBalance());
+
+            myAccount.Deposit(-3000);
+            Console.WriteLine("Balance is now {0}", myAccount.GetBalance());
+
+            myAccount.Withdraw(-8000);
+            Console.WriteLine("Balance is now {0}", myAccount.GetBalance());
+
 
 
             // The LAST line of code should be ABOVE this line
