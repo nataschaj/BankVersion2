@@ -21,7 +21,10 @@ namespace Sandbox
 
         public void Withdraw(double amount)
         {
-            balance = balance - amount;
+            if ((amount >= 0) && (amount <= balance))
+            {
+                balance = balance - amount;
+            }
         }
 
         public double GetBalance()
